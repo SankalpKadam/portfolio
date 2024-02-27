@@ -1,16 +1,16 @@
 .navbar{
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    align-items:flex-start;
-    background-color: white;
-    background: linear-gradient(80deg, rgb(17,17,17) 60%, rgb(17,17,17) 10%);
-    backdrop-filter: blur(4px);
+   
+    background: linear-gradient(80deg, rgb(17,17,17) , rgb(17,17,17));
     position: sticky;
     top: 0;
     z-index: 3;
 }
-
+.navbar__inner{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items:flex-start;
+}
 .navbar__logo{
     flex: 1;
     color: white;

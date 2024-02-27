@@ -35,6 +35,7 @@
 .aboutme__image:hover{
     filter: grayscale(0);
 }
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     .aboutme{
@@ -64,6 +65,9 @@
         width: 100px;
         height: 100px;
     }
+    .logos{
+        width: 10%;
+    }
 }
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
@@ -75,6 +79,9 @@
         width: 200px;
         height: 200px;
     }
+    .logos{
+        width: 10%;
+    }
 }
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
@@ -85,5 +92,8 @@
     .aboutme__image{
         width: 200px;
         height: 200px;
+    }
+    .logos{
+        width: 10%;
     }
 }

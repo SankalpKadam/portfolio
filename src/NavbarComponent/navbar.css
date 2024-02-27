@@ -5,7 +5,7 @@
     align-items:flex-start;
     background-color: white;
     background: linear-gradient(80deg, rgb(17,17,17) 60%, rgb(17,17,17) 10%);
-    backdrop-filter: blur(40px);
+    backdrop-filter: blur(4px);
     position: sticky;
     top: 0;
     z-index: 3;
@@ -60,6 +60,10 @@
     .navbar__downloadBtn{
         width: 25%;
         padding: 8px 0;
+    }
+    .navbar{
+        padding: 0.5rem 8rem;
+        margin-bottom: 2rem;
     }
 }
 /* Extra large devices (large laptops and desktops, 1200px and up) */

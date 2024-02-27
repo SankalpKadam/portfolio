@@ -8,7 +8,7 @@ const Navbar = () => {
         <p className='navbar__lastName'>Kadam</p>
       </div>
       <div className='navbar__options flex'>
-        <div className='navbar__downloadBtn'>
+        <div className='navbar__downloadBtn text-md md:text-xl'>
           Download Resume
         </div>
       </div>

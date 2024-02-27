@@ -4,11 +4,11 @@
     flex-direction: row;
     align-items:flex-start;
     background-color: white;
-    padding: 0.5rem 8rem;
     background: linear-gradient(80deg, rgb(17,17,17) 60%, rgb(17,17,17) 10%);
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(40px);
     position: sticky;
     top: 0;
+    z-index: 3;
 }
 
 .navbar__logo{
@@ -24,10 +24,38 @@
 }
 .navbar__downloadBtn{
     background-color: #111111;
-    width: 25%;
-    padding: 8px 0;
+    /* width: 25%; */
+    /* padding: 8px 0; */
     text-align: center;
     font-weight: bold;
     border-radius: 10px;
     border: 1px solid #827D7D ;
 }
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .navbar{
+        padding: 0.5rem 2rem;
+    }
+    .navbar__downloadBtn{
+        width: 80%;
+        padding: 0;
+    }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .navbar{
+        padding: 0.5rem 2rem;
+        margin-bottom: 2rem;
+    }
+    .navbar__downloadBtn{
+        width: 80%;
+        padding: 8px 0;
+    }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}

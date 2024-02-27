@@ -5,19 +5,25 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-family: 'Poppins', sans-serif;
+
 }
 .banner__image{
-    width: 300px;
-    height: 300px;
     background-color: #242323;
     z-index: 2;
     border-radius: 50%;
 }
 .banner__data{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.banner__name, .banner__title{
     width: 100%;
     height: fit-content;
     text-align: center;
-    font-family: 'Poppins', sans-serif;
 }
 .banner__name{
     font-weight: 600;
@@ -26,5 +32,30 @@
     background: linear-gradient(to right, rgb(255,255,255) 40%,rgb(130,125,125) 60%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-weight: 600;
 }
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .banner__image{
+        width: 200px;
+        height: 200px;
+    }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .banner__image{
+        width: 200px;
+        height: 200px;
+    }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .banner__image{
+        width: 400px;
+        height: 400px;
+    }
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}

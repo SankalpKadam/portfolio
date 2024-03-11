@@ -1,0 +1,40 @@
+.singleproject{
+    width: 90%;
+    padding: 0.2rem 0.5rem;
+    /* background: linear-gradient(to right bottom, rgb(48,46,46) 100%, rgb(36, 36, 35) 10%); */
+    /* background: black; */
+    margin: 0.3rem 0;
+    background: transparent;
+}
+.singleproject__inner{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+}
+.project__skills{
+    background-color: white;
+    color: black;
+    margin: 0.2rem 0.2rem;
+    padding: 0.2rem;
+    width: 25%;
+    border-radius: 20px;
+    text-align: center;
+    display: block;
+    justify-content: center;
+}
+.singleproject__title{
+    width: 40%;
+    /* background-color: aqua; */
+}
+.singleproject__skills{
+    width: 30%;
+    /* background-color: azure; */
+}
+.singleproject__links{
+    width: 30%;
+    display: flex;
+    justify-content: end;
+    /* background-color: blue; */
+}

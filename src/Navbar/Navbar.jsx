@@ -29,28 +29,27 @@ const Navbar = () => {
         pr-3
         '/>
         <div>
-        <p className='lg:text-3xl
+          <p className='lg:text-3xl
         md:text-2xl
         text-xl 
         font-bold 
         text-white'>Sankalp</p>
-        <p className='lg:text-xl
+          <p className='lg:text-xl
         md:text-lg
         text-md
         text-white
-        border-x-gray-400
         -mt-2'>Kadam</p>
         </div>
       </div>
-      <div className='border-2
-      border-navbarColor
+      <div className='//border-2
+      //border-navbarColor
       rounded-xl
       px-4
       py-2
       lg:text-xl
       text-sm
       '>
-        Download Resume
+        Resume
       </div>
     </div>
   )

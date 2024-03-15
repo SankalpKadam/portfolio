@@ -24,15 +24,23 @@ const Banner = () => {
                                 md:mx-0
                                 mx-3
                                 '>
-                    <img src={require("../../ProfilePhoto.jpg")} alt=""
+                    <img src={require("../../ProfileCropped.jpg")} alt=""
                         className='
+                    xl:w-[300px]
+                    xl:h-[300px]
                     lg:w-[400px] 
                     lg:h-[400px]
                     md:w-[600px]
                     sm:w-[500px]
                     object-contain 
                     rounded-full 
-                    grayscale'/>
+                    grayscale-0
+                    hover:grayscale-0
+                    transition
+                    ease-in-out
+                    duration-150
+                    cursor-pointer
+                    bg-img'/>
                 </div>
                 <div className='banner__name 
                                 lg:text-7xl 

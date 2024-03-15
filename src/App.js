@@ -1,11 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
+import Homepage from './Homepage/Homepage';
 import Navbar from './Navbar/Navbar';
+import StarsCanvas from './StarsBackground';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App h-full bg-[url('./LooperGroup2.png')] bg-no-repeat">
+      <StarsCanvas/>
       <Navbar/>
+      <Homepage/>
     </div>
   );
 }

@@ -6,7 +6,21 @@ module.exports = {
   theme: {
     extend: {
       colors:{
-        'navbarColor':"#827D7D"
+        'navbarColor':"#827D7D",
+        'imgBg':'#242323'
+      },
+      width:{
+        'imgWidth':'30%',
+        'imgWidthMobile':'30%',
+        'imgWidthIpad':'65%',
+        'imgWidthXL':'20%',
+        'imgWidthSmallest':'85%'
+      },
+      height:{
+        'imgHeight':'40%',
+        'imgHeightMobile':'80%',
+        'imgHeightIpad':'50%',
+        'imgHeightSmallest':'50%'
       }
     },
     

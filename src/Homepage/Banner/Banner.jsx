@@ -21,13 +21,15 @@ const Banner = () => {
                                 bg-imgBg 
                                 z-50 
                                 mb-3
-                                sm:mx-0
+                                md:mx-0
                                 mx-3
                                 '>
                     <img src={require("../../ProfilePhoto.jpg")} alt=""
                         className='
                     lg:w-[400px] 
-                    lg:h-[400px] 
+                    lg:h-[400px]
+                    md:w-[600px]
+                    sm:w-[500px]
                     object-contain 
                     rounded-full 
                     grayscale'/>

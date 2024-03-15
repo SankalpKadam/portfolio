@@ -14,8 +14,12 @@ const Navbar = () => {
     justify-between
     items-center
     backdrop-blur-sm
-    z-50
+    bg-transparent
+    z-[60]
     fixed
+    top-0
+    w-full
+    h-[65px]
     '>
       <div className='navbar__logo
       flex

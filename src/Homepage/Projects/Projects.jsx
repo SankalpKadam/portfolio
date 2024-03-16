@@ -1,9 +1,9 @@
 import React from 'react'
 import SingleProject from './SingleProject'
-
+import { projectList } from '../../ProjectList'
 const Projects = () => {
     return (
-        <div className='projects flex flex-col items-center justify-center mt-10'>
+        <div className='projects flex flex-col items-center justify-center mt-[150px]'>
             <div className='text-transparent 
                 lg:text-7xl 
                 md:text-6xl 
@@ -26,9 +26,11 @@ const Projects = () => {
                     px-2
                     mt-10
             '>
-                <SingleProject />
-                <SingleProject />
+                {
+                    projectList.slice(0,4).map((project)=><SingleProject key={project.id} id={project.id} skills={project.Skills} shortText={project.ShortText} github={project.Github} live={project.Live} img={project.img} title={project.Title}/>)
+                }
             </div>
+
         </div>
     )
 }

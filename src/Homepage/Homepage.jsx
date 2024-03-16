@@ -4,6 +4,7 @@ import Banner from './Banner/Banner'
 import About from './About/About'
 import Experience from './Experience/Experience'
 import Projects from './Projects/Projects'
+import Getintouch from './GetInTouch/Getintouch'
 const Homepage = () => {
   return (
     <div className='homepage'>
@@ -11,6 +12,7 @@ const Homepage = () => {
         <About/>
         <Experience/>
         <Projects/>
+        <Getintouch/>
     </div>
   )
 }

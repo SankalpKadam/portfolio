@@ -1,0 +1,8 @@
+@keyframes fill-left-to-right {
+    from { width: 0; }
+    to { width: 100%; }
+  }
+  
+  .fill-left-to-right {
+    animation: fill-left-to-right 1s ease-in-out;
+  }

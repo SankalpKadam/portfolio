@@ -20,9 +20,10 @@ const Banner = () => {
                                 rounded-full 
                                 bg-imgBg 
                                 z-50 
-                                mb-3
+                                mb-10
                                 md:mx-0
                                 mx-3
+
                                 '>
                     <img src={require("../../ProfileCropped.jpg")} alt=""
                         className='
@@ -34,7 +35,7 @@ const Banner = () => {
                     sm:w-[500px]
                     object-contain 
                     rounded-full 
-                    grayscale-0
+                    grayscale
                     hover:grayscale-0
                     transition
                     ease-in-out
@@ -47,7 +48,12 @@ const Banner = () => {
                                 md:text-6xl 
                                 text-3xl 
                                 font-bold 
-                                animate-bounce'>
+                                animate-bounce
+                                bg-clip-text 
+                                bg-gradient-to-r 
+                                from-purple-500 
+                                to-orange-400
+                                text-transparent'>
                     Sankalp Kadam!
                 </div>
                 <div className='gradient__text 

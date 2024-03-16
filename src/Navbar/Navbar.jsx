@@ -25,7 +25,7 @@ const Navbar = () => {
       flex
       flex-row
       items-center'>
-        <img src={require("../sk-high-resolution-logo-white-transparent.png")} alt="" className='h-10
+        <img src={`${window.location.origin}`+"/logo.png"} alt="" className='h-10
         pr-3
         '/>
         <div>

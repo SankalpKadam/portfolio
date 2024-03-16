@@ -14,7 +14,7 @@ const Experience = () => {
             flex 
             flex-col 
             items-center
-            mt-[50px]'>
+            mt-[150px]'>
             <div className='text-transparent 
                 lg:text-7xl 
                 md:text-6xl 

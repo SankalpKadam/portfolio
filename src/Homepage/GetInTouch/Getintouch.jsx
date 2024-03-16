@@ -7,7 +7,7 @@ const Getintouch = () => {
                     flex-col
                     justify-center
                     items-center
-                    mt-10'>
+                    mt-[150px]'>
             <div className='text-transparent 
                 lg:text-7xl 
                 md:text-6xl 

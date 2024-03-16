@@ -2,7 +2,7 @@ import React from 'react'
 import ArrowOutwardIcon from '@mui/icons-material/ArrowOutward';
 const About = () => {
     return (
-        <div className='about flex flex-col justify-center items-center mt-[50px]'>
+        <div className='about flex flex-col justify-center items-center mt-[150px]'>
             <div className='
                 text-transparent 
                 lg:text-7xl 

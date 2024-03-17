@@ -24,7 +24,7 @@ export const projectList =[
         Skills:["JavaScript", "React.Js","Redux","Firebase","Firebase Auth"],
         img:"/assets/concord.png",
         Github:"https://github.com/SankalpKadam/ConCord",
-        Live:null
+        Live:"https://concord-f47ee.web.app/"
     },
     {
         id:4,

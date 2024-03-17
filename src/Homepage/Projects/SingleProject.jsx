@@ -54,6 +54,7 @@ const SingleProject = ({ id, skills, shortText, title, github, live, img }) => {
                                 px-4
                                 rounded-lg
                                 text-sm
+                                md:text-base
                                 lg:mt-0
                                 mt-2'>
                     {shortText}

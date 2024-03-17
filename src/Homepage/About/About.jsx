@@ -15,7 +15,7 @@ const About = () => {
                 to-orange-400'>
                 ABOUT ME
             </div>
-            <div className='lg:text-base
+            <div className='md:text-lg
                                 text-sm
                                 xl:w-1/2
                                 md:w-2/3

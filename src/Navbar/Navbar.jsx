@@ -1,6 +1,41 @@
 import React from 'react'
 import './Navbar.css'
+import axios from 'axios'
 const Navbar = () => {
+  const downloadPDF = async () => {
+    try {
+      const response = await axios.get(
+        "http://localhost:3000/assets/SankalpSunil-Kadam-Resume.pdf",
+        {
+          responseType: "blob", 
+        }
+      );
+
+      // Create a Blob from the response data
+      const pdfBlob = new Blob([response.data], { type: "application/pdf" });
+
+      // Create a temporary URL for the Blob
+      const url = window.URL.createObjectURL(pdfBlob);
+
+      // Create a temporary <a> element to trigger the download
+      const tempLink = document.createElement("a");
+      tempLink.href = url;
+      tempLink.setAttribute(
+        "download",
+        `SankalpSunil-Kadam-Resume.pdf`
+      ); // Set the desired filename for the downloaded file
+
+      // Append the <a> element to the body and click it to trigger the download
+      document.body.appendChild(tempLink);
+      tempLink.click();
+
+      // Clean up the temporary elements and URL
+      document.body.removeChild(tempLink);
+      window.URL.revokeObjectURL(url);
+    } catch (error) {
+      console.error("Error downloading PDF:", error);
+    }
+  };
   return (
     <div className='navbar 
     lg:py-8 
@@ -48,7 +83,8 @@ const Navbar = () => {
       py-2
       lg:text-xl
       text-sm
-      '>
+      '
+      onClick={downloadPDF}>
         Resume
       </div>
     </div>

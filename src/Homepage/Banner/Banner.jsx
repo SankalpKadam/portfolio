@@ -120,11 +120,14 @@ const Banner = () => {
                     </div> */}
                     <div className='banner__img 
                                 rounded-full 
-                                // z-50 
+                                z-50 
                                 mb-3
                                 mx-4
                                 '>
-                        <LinkedInIcon style={{fontSize:50}} />
+                        <a href="https://www.linkedin.com/in/sankalp-kadam" target='_blank'>
+
+                            <LinkedInIcon style={{ fontSize: 50 }} />
+                        </a>
                     </div>
                     <div className='banner__img 
                                 rounded-full 
@@ -132,7 +135,10 @@ const Banner = () => {
                                 mb-3
                                 mx-4
                                 '>
-                        <GitHubIcon style={{fontSize:45}} />
+                        <a href="https://github.com/SankalpKadam" target='_blank'>
+
+                            <GitHubIcon style={{ fontSize: 45 }} />
+                        </a>
                     </div>
                 </div>
             </div>

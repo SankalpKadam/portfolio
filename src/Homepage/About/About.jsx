@@ -25,16 +25,16 @@ const About = () => {
                                 px-2
                                 text-center
                                 text-white
-                                mt-10'>
-                I am currently pursuing a <b className='lg:text-lg'>
-                    
-                    Master's degree in Computer Science</b> at <b className='lg:text-lg'>The University of Texas at Arlington</b>. With courses such as Machine Learning, Neural Networks, Information Security and Big Data and Cloud Computing I have gained skills in multiple fields.
+                                mt-10
+                                z-40'>
+
+                Currently pursuing a Master's degree in Computer Science at The University of Texas at Arlington, I have delved into a diverse array of courses including Machine Learning, Neural Networks, Information Security, Big Data, and Cloud Computing. These courses have equipped me with comprehensive skills spanning multiple fields.
                 <br />
                 <br />
-                I have 6+ months of internship experience and I am passionate about Software Development. I am proficient in multiple programming languages such as Python, JavaScript, Java and TypeScript. My passion for software development led to make multiple projects which in turn helped me to hone my skills.
+                With over 6 months of internship experience, I discovered my fervor for Software Development. Proficient in languages such as Python, JavaScript, Java, and TypeScript, I've channeled this passion into creating numerous projects, refining my expertise along the way.
                 <br />
                 <br />
-                I will be graduating in Spring 2024 and want to pursue a career in Software Engineering. My goal is to become a Software Architect and play significant roles in designing databases, API and backend architectures which will help to make our lives easier.
+                Graduating in Spring 2024, I am poised to embark on a career in Software Engineering. My aspiration is to evolve into a Software Architect, contributing significantly to the design of databases, APIs, and backend architectures, ultimately simplifying our daily lives.
             </div>
             <div className='lg:text-lg
                                 text-base

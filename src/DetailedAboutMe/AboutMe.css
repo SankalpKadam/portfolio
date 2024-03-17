@@ -1,0 +1,20 @@
+.thingsIknow > img{
+    margin: 5px;
+    background-color: white;
+    border-radius: 10%;
+    padding: 5px;
+}
+
+@keyframes fillbg {
+    from{
+        background-color: transparent;
+        /* margin-left: -100%; */
+    }
+    to{
+        background-color: yellow;
+        /* margin-left: 0; */
+    }
+}
+.textbg{
+    animation: fillbg 1s ease-in-out;
+}

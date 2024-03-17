@@ -50,7 +50,8 @@ const Getintouch = () => {
                         bg-transparent
                         text-white
                         z-50
-                        '>
+                        '
+                        onClick={() => window.open("mailto:sankalpsunilkadam@gmail.com")}>
                 Contact Me
             </div>
         </div>

@@ -124,7 +124,7 @@ const Banner = () => {
                                 mb-3
                                 mx-4
                                 '>
-                        <a href="https://www.linkedin.com/in/sankalp-kadam" target='_blank'>
+                        <a href="https://www.linkedin.com/in/sankalp-kadam" >
 
                             <LinkedInIcon style={{ fontSize: 50 }} />
                         </a>
@@ -135,7 +135,7 @@ const Banner = () => {
                                 mb-3
                                 mx-4
                                 '>
-                        <a href="https://github.com/SankalpKadam" target='_blank'>
+                        <a href="https://github.com/SankalpKadam">
 
                             <GitHubIcon style={{ fontSize: 45 }} />
                         </a>

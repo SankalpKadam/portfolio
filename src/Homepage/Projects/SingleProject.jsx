@@ -92,14 +92,14 @@ const SingleProject = ({ id, skills, shortText, title, github, live, img }) => {
                                 mt-2'>
                     {github &&
                         <div className='mx-2 cursor-pointer'>
-                            <a href={github} target='_blank'>
+                            <a href={github}>
 
                                 <GitHubIcon style={{ fontSize: 40 }} />
                             </a>
                         </div>
                     }
                     {live && <div className='mx-2'>
-                        <a href={live} target='_blank'>
+                        <a href={live}>
 
                             <OpenInNewIcon style={{ fontSize: 40 }} />
                         </a>

@@ -5,7 +5,7 @@ const Navbar = () => {
   const downloadPDF = async () => {
     try {
       const response = await axios.get(
-        "http://localhost:3000/assets/SankalpSunil-Kadam-Resume.pdf",
+        `${window.location.origin}/assets/SankalpSunil-Kadam-Resume.pdf`,
         {
           responseType: "blob", 
         }
@@ -83,6 +83,7 @@ const Navbar = () => {
       py-2
       lg:text-xl
       text-sm
+      cursor-pointer
       '
       onClick={downloadPDF}>
         Resume

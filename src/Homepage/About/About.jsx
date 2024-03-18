@@ -35,7 +35,7 @@ const About = () => {
                 <br />
                 Graduating in Spring 2024, I am poised to embark on a career in Software Engineering. My aspiration is to evolve into a Software Architect, contributing significantly to the design of databases, APIs, and backend architectures, ultimately simplifying our daily lives.
             </div>
-            <div className='lg:text-lg
+            {/* <div className='lg:text-lg
                                 text-base
                                 xl:w-1/2
                                 md:w-2/3
@@ -52,7 +52,7 @@ const About = () => {
                                 to-orange-400
                                 '>
                 Know More
-            </div>
+            </div> */}
         </div>
     )
 }

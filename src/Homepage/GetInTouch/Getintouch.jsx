@@ -17,7 +17,7 @@ const Getintouch = () => {
                 bg-gradient-to-r 
                 from-purple-500 
                 to-orange-400'>
-                GET IN TOUCH!
+                Get In Touch!
             </div>
             <div className='lg:text-base
                                 text-sm

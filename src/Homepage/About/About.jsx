@@ -12,7 +12,7 @@ const About = () => {
                 bg-gradient-to-r 
                 from-purple-500 
                 to-orange-400'>
-                ABOUT ME
+                About Me
             </div>
             <div className='md:text-lg
                                 text-sm

@@ -30,7 +30,7 @@ const Experience = () => {
                 bg-gradient-to-r 
                 from-purple-500 
                 to-orange-400'>
-                WORK EXPERIENCE
+                Work Experience
             </div>
             <div className='
                 flex

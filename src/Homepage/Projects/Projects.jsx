@@ -13,7 +13,7 @@ const Projects = () => {
                 bg-gradient-to-r 
                 from-purple-500 
                 to-orange-400'>
-                SOME THINGS I'VE BUILT
+                Some Things I've Built
             </div>
             <div className='flex
                     flex-row
